@@ -77,7 +77,7 @@ namespace HashBang
             {
                 instance.Controller.Quit();
             }
-            catch (Exception)
+            catch
             {
                 //Ignored
             }
@@ -222,7 +222,7 @@ namespace HashBang
                 {
                     instanceIrcController.Quit();
                 }
-                catch (Exception)
+                catch
                 {
                     //Ignored
                 }
@@ -251,7 +251,7 @@ namespace HashBang
                 {
                     instance.Value.Controller.Quit();
                 }
-                catch (Exception)
+                catch
                 {
                     //Ignored
                 }
@@ -282,7 +282,7 @@ namespace HashBang
                 {
                     instanceIrcController.Quit();
                 }
-                catch (Exception)
+                catch
                 {
                     //Ignored
                 }
@@ -309,7 +309,7 @@ namespace HashBang
                 {
                     instance.Value.Controller.Quit();
                 }
-                catch (Exception)
+                catch
                 {
                     //Ignored
                 }
@@ -441,7 +441,7 @@ namespace HashBang
                 {
                     instanceIrcController.Connector.Transmit(msg);
                 }
-                catch (Exception)
+                catch
                 {
                     //ignore
                 }
@@ -471,7 +471,7 @@ namespace HashBang
                 {
                     instance.Value.Controller.Quit();
                 }
-                catch (Exception)
+                catch
                 {
                     //Ignored
                 }
