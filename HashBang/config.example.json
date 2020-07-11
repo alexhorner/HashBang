@@ -1,0 +1,24 @@
+{
+    "autostart": true,
+    "instances": [
+        {
+            "name": "MyServer",
+            "autostart": true,
+            "commandprefix": "#!",
+            "host": "irc.myserver.net",
+            "port": 6697,
+            "ssl": true,
+            "nick": "HashBang",
+            "username": "hashbang",
+            "realname": "HashBang | #!",
+            "channels": [
+                "#home"
+            ],
+            "sasl": {
+                "enabled": true,
+                "username": "myuser",
+                "password": "mypassword"
+            }
+        }
+    ]
+}
